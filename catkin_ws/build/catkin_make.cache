@@ -1,2 +1,2 @@
-
+my_pkg
 -DCATKIN_DEVEL_PREFIX=/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/install -G Unix Makefiles
