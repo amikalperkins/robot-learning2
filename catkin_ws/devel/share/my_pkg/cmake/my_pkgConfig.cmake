@@ -116,7 +116,7 @@ if(NOT "/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/src/my_pkg/i
   endforeach()
 endif()
 
-set(libraries "")
+set(libraries "my_pkg")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")

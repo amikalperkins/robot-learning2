@@ -2,7 +2,7 @@
 CATKIN_PACKAGE_PREFIX = ""
 PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs".replace(';', ' ')
-PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
+PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lmy_pkg".split(';') if "-lmy_pkg" != "" else []
 PROJECT_NAME = "my_pkg"
 PROJECT_SPACE_DIR = "/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/install"
 PROJECT_VERSION = "0.0.0"

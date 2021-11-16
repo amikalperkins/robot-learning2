@@ -438,6 +438,12 @@ lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
+my_first_pkg_BINARY_DIR:STATIC=/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/build/my_first_pkg
+
+//Value Computed by CMake
+my_first_pkg_SOURCE_DIR:STATIC=/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/src/my_first_pkg
+
+//Value Computed by CMake
 my_pkg_BINARY_DIR:STATIC=/home/amikalperkins/git_workspace/robot-learning2/catkin_ws/build/my_pkg
 
 //Value Computed by CMake
